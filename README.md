@@ -43,9 +43,9 @@ The model performs strongly and generalizes well on unseen chest X-ray images.
 - 📓 **Kaggle Notebook**: [View Notebook](https://www.kaggle.com/code/mohammad007kh/chest-x-ray-pneumonia-classifier-resnet50/)
 - 💻 **GitHub Repository**: [View Repo](https://github.com/mohammad007kh/Chest-X-ray-Pneumonia-Classifier-ResNet50-)
 
-## 🖥️ Try it Yourself (Streamlit App – Coming Soon)
+## 🖥️ Try it Yourself (Streamlit App)
 
-> 🧪 You'll be able to upload a chest X-ray image and get an instant prediction once the app is live. Stay tuned!
+> 🧪 You are able to upload a chest X-ray image and get an instant prediction.
 
 ## 🚀 How to Run the Project Locally
 
