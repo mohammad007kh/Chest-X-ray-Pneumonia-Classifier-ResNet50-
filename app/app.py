@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
@@ -5,7 +6,9 @@ import numpy as np
 from PIL import Image
 
 # Load model
-model = load_model("pneumonia_model.h5")
+current_dir = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(current_dir, "pneumonia_model.h5")
+model = load_model(model_path)
 
 # Define prediction function
 def predict_pneumonia(img):
